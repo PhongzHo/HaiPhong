@@ -5,13 +5,13 @@ import { StoreRegion } from "@medusajs/types"
 import LocalizedClientLink from "@modules/common/components/localized-client-link"
 import CartButton from "@modules/layout/components/cart-button"
 import SideMenu from "@modules/layout/components/side-menu"
+import { SearchBar } from "@modules/search/components/search-view/search-box"
 
 export default async function Nav() {
   const regions = await listRegions().then((regions: StoreRegion[]) => regions)
 
   return (
     <>
-      <div className="flex py-2 bg-green-200 items-center justify-center text-sm"> Nhà phân phối sỉ & lẻ vật tư tiêu hao chính hiệu.</div>
       <div className="sticky top-0 inset-x-0 z-50 group">
         <header className="relative h-16 mx-auto border-b duration-200 bg-white border-ui-border-base">
           <nav className="content-container txt-xsmall-plus text-ui-fg-subtle flex items-center justify-between w-full h-full text-small-regular">
