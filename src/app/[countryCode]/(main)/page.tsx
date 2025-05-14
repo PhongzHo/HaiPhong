@@ -4,7 +4,7 @@ import FeaturedProducts from "@modules/home/components/featured-products"
 import Hero from "@modules/home/components/hero"
 import { listCollections } from "@lib/data/collections"
 import { getRegion } from "@lib/data/regions"
-import { SearchBar } from "@modules/search/components/search-view/search-box"
+import { SearchBar } from "@modules/search/components/search-view/search-bar"
 
 export const metadata: Metadata = {
   title: "Website Bán Hàng CTY TMDV TỔNG HỢP HẢI PHONG",
@@ -32,7 +32,7 @@ export default async function Home(props: {
   return (
     <>
       {/* SEARCH BAR */}
-      
+      <SearchBar />
       <Hero />
       <div className="py-12">
         <ul className="flex flex-col gap-x-6">

@@ -1,11 +1,11 @@
 {
-  "name": "medusa-next",
+  "name": "haiphong-next",
   "version": "1.0.3",
   "private": true,
-  "author": "Kasper Fabricius Kristensen <kasper@medusajs.com> & Victor Gerbrands <victor@medusajs.com> (https://www.medusajs.com)",
-  "description": "Next.js Starter to be used with Medusa V2",
+  "author": "PhongHo developer base on HaiPhong company.",
+  "description": "Next.js Starter to be used with Medusa-v2(a open source framework for building ecommerce.)",
   "keywords": [
-    "medusa-storefront"
+    "haiphong-storefront"
   ],
   "scripts": {
     "dev": "next dev --turbopack -p 8000",
@@ -22,16 +22,18 @@
     "@radix-ui/react-accordion": "^1.2.1",
     "@stripe/react-stripe-js": "^1.7.2",
     "@stripe/stripe-js": "^1.29.0",
+    "create-instantsearch-app": "^7.5.26",
+    "instantsearch.js": "^4.78.3",
     "lodash": "^4.17.21",
     "lucide-react": "^0.507.0",
-    "next": "15.0.3",
+    "next": "^15.3.2",
     "pg": "^8.11.3",
     "qs": "^6.12.1",
     "react": "19.0.0-rc-66855b96-20241106",
     "react-country-flag": "^3.1.0",
     "react-dom": "19.0.0-rc-66855b96-20241106",
     "react-icons": "^5.5.0",
-    "react-instantsearch": "^7.15.6",
+    "react-instantsearch": "^7.15.7",
     "server-only": "^0.0.1",
     "tailwindcss-radix": "^2.8.0",
     "typesense": "^2.1.0-5",
