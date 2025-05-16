@@ -1,14 +1,22 @@
-import { Github } from "@medusajs/icons"
-import { Button, Heading } from "@medusajs/ui"
+import Image from 'next/image';
+
+import { Carousel, CarouselContent, CarouselItem } from '@lib/components/ui/carousel';
+
+const images = [
+]
+
+function ImageCarousel() {
+  return (
+    <Carousel></Carousel>
+  );
+}
 
 const Hero = () => {
   return (
-    <div className="p-2">
-      <div className=" bg-slate-50 text-white h-40">
-        {/* Một carousel có 2 nút ở đây chuyển động transparent từ 100-0 mượt mà */}
-      </div>
-    </div>
-  )
-}
+    <div className="py-4 px-2 bg-white">
 
-export default Hero
+    </div>
+  );
+};
+
+export default Hero;

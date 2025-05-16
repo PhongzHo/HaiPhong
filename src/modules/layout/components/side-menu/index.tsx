@@ -1,6 +1,7 @@
 "use client"
 
 import { Popover, PopoverPanel, Transition } from "@headlessui/react"
+import { FaXmark } from "react-icons/fa6";
 import { ArrowRightMini, XMark } from "@medusajs/icons"
 import { Text, clx, useToggleState } from "@medusajs/ui"
 import { Fragment } from "react"
@@ -51,9 +52,9 @@ const SideMenu = ({ regions }: { regions: HttpTypes.StoreRegion[] | null }) => {
                     data-testid="nav-menu-popup"
                     className="flex flex-col h-full bg-[rgba(3,7,18,0.5)] rounded-rounded justify-between p-6"
                   >
-                    <div className="flex justify-end" id="xmark">
+                    <div className="flex justify-end pt-8" id="xmark">
                       <button data-testid="close-menu-button" onClick={close}>
-                        <XMark />
+                        <FaXmark className="w-6 h-6" />
                       </button>
                     </div>
                     <ul className="flex flex-col gap-6 items-start justify-start">
